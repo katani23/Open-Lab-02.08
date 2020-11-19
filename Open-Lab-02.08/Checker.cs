@@ -6,7 +6,14 @@ namespace Open_Lab_02._08
     {
         public bool IsEmpty(string str)
         {
-            throw new NotImplementedException();
+            if (str.Length ==0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
